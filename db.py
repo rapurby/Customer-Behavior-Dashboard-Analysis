@@ -15,7 +15,7 @@ DB_CONFIG = {
     "port":     5432,
     "database": "dvdrental",
     "user":     "postgres",
-    "password": "day0805",  
+    "password": os.getenv("DB_PASSWORD"),  
 }
 
 
